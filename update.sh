@@ -9,4 +9,3 @@ git add .
 date=$(date -u -Iseconds)
 git commit --allow-empty -m ${date}
 git push
-

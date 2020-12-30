@@ -1,0 +1,24 @@
+name: Update Blocklists
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # every day at midnight
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+      with:
+        persist-credentials: false
+        fetch-depth: 0
+    - name: Create local changes
+      run: |
+        wget https://gui.xmr.pm/files/block.txt -O block.txt
+        wget https://gui.xmr.pm/files/block_tor.txt -O block_tor.txt
+    - name: Commit & Push changes
+      uses: rblaine95/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        empty: true
