@@ -8,6 +8,9 @@ To use, download the blocklist of your choice and use the `--ban-list /path/to/b
 
 Or add `ban-list=/path/to/block.txt` to your `bitmonero.conf` file
 
+* https://rblaine95.github.io/monero-banlist/block.txt
+* https://rblaine95.github.io/monero-banlist/block_tor.txt
+
 #### Tips
 If you want to tip me, thank you  
 Monero: `8AoCMLDJ4J4fkeEokYT1QQbVd7vemd7nHVH1uurxng3cXx1wdKKdp14Fk1PDws4vkagHRF2BkdQo9DfzxxpEr4pUCaGWb5U`  
