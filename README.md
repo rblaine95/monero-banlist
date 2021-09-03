@@ -1,15 +1,19 @@
 # Monero Ban List
 
-#### Mirror
-* https://gui.xmr.pm/files/block.txt
-* https://gui.xmr.pm/files/block_tor.txt
+This is my personal, daily updating, mirror of the blocklists at `gui.xmr.pm`
+
+#### Upstream
+* [https://gui.xmr.pm/files/block.txt](https://gui.xmr.pm/files/block.txt)
+* [https://gui.xmr.pm/files/block_tor.txt](https://gui.xmr.pm/files/block_tor.txt)
 
 To use, download the blocklist of your choice and use the `--ban-list /path/to/block.txt` `monerod` argument
 
 Or add `ban-list=/path/to/block.txt` to your `bitmonero.conf` file
 
-* https://rblaine95.github.io/monero-banlist/block.txt
-* https://rblaine95.github.io/monero-banlist/block_tor.txt
+#### Download Links:
+* Github Pages:
+  * [https://rblaine95.github.io/monero-banlist/block.txt](https://rblaine95.github.io/monero-banlist/block.txt)
+  * [https://rblaine95.github.io/monero-banlist/block_tor.txt](https://rblaine95.github.io/monero-banlist/block_tor.txt)
 
 #### Tips
 If you want to tip me, thank you  
